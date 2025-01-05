@@ -37,10 +37,10 @@ while game_continue:
 
     caesar(original_text=text, shift_amount=shift, encode_or_decode=direction)
 
-    end=input("Do you want to continue the game? Type yes or else no to exit")
+    end=input("Do you want to continue? Type yes or else no to exit")
     if end == "no":
         game_continue = False
-        print("Game Over")
+        print("GoodBYE")
 
 
 
